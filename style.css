@@ -30,6 +30,7 @@ a {
 
 #avatar:hover {
     border: 5px solid rgba(133, 133, 133, 0.27);
+    cursor: pointer;
 }
 
 .nav-link {
@@ -51,6 +52,7 @@ a {
 
 #gapps-btn:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 #logo {
@@ -105,6 +107,28 @@ a {
     padding: 1rem;
     font-size: 1.5rem;
   }
+}
+
+#search-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.btn-search {
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    margin: 0.7rem;
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    color:rgba(0, 0, 0, 0.705);
+}
+
+.btn-search:hover {
+    border: 1px solid #ddd;
+    cursor: pointer;
 }
 
 footer {
