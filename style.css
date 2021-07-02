@@ -106,3 +106,33 @@ a {
     font-size: 1.5rem;
   }
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid wheat;
+    background: whitesmoke;
+    font-size: 1.5rem;
+}
+
+.footer-link {
+    display: block;
+    padding: 1rem 0 1rem 3rem;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.left, .right {
+    display: flex;
+}
+
+.right {
+    margin-right: 2.75rem;
+}
