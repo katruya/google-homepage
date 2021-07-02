@@ -1,0 +1,42 @@
+body {
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+#logo {
+    text-align: center;
+}
+
+#search-form {
+    display: flex;
+    flex: 1;
+}
+
+#search-field {
+    display: flex;
+    flex: 100%;
+}
+
+@media (min-width: 350px) {
+    #search-field{
+        margin: auto 5rem;
+        padding: 2rem;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 600px) {
+    #search-field {
+        margin: 1.75rem 3rem auto 3rem;
+        padding: 1.75rem;
+        font-size: 1.75rem; 
+    }
+}
+
+@media (min-width: 800px) {
+    #search-field {
+        margin: 2rem 5rem auto 5rem;
+        padding: 1.75rem;
+        font-size: 2.5rem;
+    }
+}
